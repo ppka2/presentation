@@ -29,15 +29,16 @@
  
 ### note（注意）
  
+本项目只对测试材料负责，若更换测试材料需要更改文件中的部分中间变量
+
 先运行 calculate.py 再运行 KMCounter_use.ahk 得到全拼输入法热力图
 
 先运行 calculate_new.py 再运行 KMCounter_use.ahk 得到改进输入法热力图
- 
-```
-Give an example
-```
- 
-## Authors
+
+运行 KMCounter_use.ahk需要autohotkey环境
+
+
+## Author
  
 PPka
  
