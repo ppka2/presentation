@@ -5,6 +5,8 @@
  
 ### 文件目录
  
+| calculate.py 计算全拼输入法的相关数据
+
 | calculate_new.py 计算改进输入法的相关数据
 
 | calculate_sub.py 计算去除多字符韵母和声母后的相关数据
@@ -27,7 +29,9 @@
  
 ### note（注意）
  
-应该先运行 calculate.py
+先运行 calculate.py 再运行 KMCounter_use.ahk 得到全拼输入法热力图
+
+先运行 calculate_new.py 再运行 KMCounter_use.ahk 得到改进输入法热力图
  
 ```
 Give an example
