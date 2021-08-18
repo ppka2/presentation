@@ -32,7 +32,7 @@ dictC={"iu":["d","j","l","m","n","q","x"],
 }
 nodeL=[]
 edgeL=[]
-LC=["uai","iong","ua"]
+LC=["uai","iong","ua"]#忽略的节点
 #LC=[]
 for key,value in dictC.items():
     for key1,value1 in dictC.items():
