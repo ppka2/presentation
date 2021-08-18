@@ -1,7 +1,8 @@
-
+#声母表以及韵母表
 list_shimu=["b","p","m","f","d","t","n","l","g","k","h","j","q","x","zh","ch","sh","r","z","c","s","w","y"]
-list_yunmu=["a","o","e","i","u","v","ai","ei","ui","ao","ou","iu","ie","ve","er","an","en","in","un","vn","ang","eng","ing","ong"]
+list_yunmu=["a","o","e","i","u","v","ia","ai","ei","ui","ao","ou","iu","ie","ve","er","an","en","in","un","vn","ang","eng","ing","ong"]
 
+#各个韵母对应的声母
 dictC={"iu":["d","j","l","m","n","q","x"],
         "ei":["b","d","ei","f","g","h","l","m","n","p","sh","w","z","zh"],
         "uan":["ch","c","d","g","h","j","k","l","n","q","r","s","sh","t","x","y","zh","z"],
@@ -50,93 +51,13 @@ import networkx as nx
 G=nx.Graph()
 # 添加节点
 G.add_nodes_from(nodeL)
-# G.number_of_nodes()  # 查看节点数，输出结果7
 
 # 添加连线
 G.add_edges_from(edgeL)
 # 绘制网络图
-# nx.draw(G,pos=nx.circular_layout(G),with_labels=True)
 nx.draw_networkx(G,pos=nx.circular_layout(G),with_labels=True,node_color='lightblue',
                  linewidths=4,
                  edge_color='black',style='-',
                  font_size=10,font_color='black',font_family='SimHei')
 import matplotlib.pyplot as plt
 plt.show()
-# iu uai 
-# iu uang
-# iu ua  
-# ei iong
-# ue uai 
-# ue uang
-# ue ua  
-# ue ui  
-# ie uai 
-# ie uang
-# ie ua
-# ong iong
-# eng iong
-# ang iong
-# uai iu
-# uai ue
-# uai ie
-# uai ing
-# uai iang
-# uai in
-# uai iao
-# uai ian
-# uai iong
-# ing uai
-# ing uang
-# ing ua
-# uang iu
-# uang ue
-# uang ie
-# uang ing
-# uang iang
-# uang in
-# uang iao
-# uang ian
-# uang iong
-# iang uai
-# iang uang
-# iang ua
-# iang ui
-# ou iong
-# ua iu
-# ua ue
-# ua ie
-# ua ing
-# ua iang
-# ua in
-# ua iao
-# ua ian
-# ua iong
-# ao iong
-# ui ue
-# ui iang
-# ui in
-# ui iong
-# in uai
-# in uang
-# in ua
-# in ui
-# iao uai
-# iao uang
-# iao ua
-# ian uai
-# ian uang
-# ian ua
-# iong ei
-# iong ong
-# iong eng
-# iong ang
-# iong uai
-# iong uang
-# iong ou
-# iong ua
-# iong ao
-# iong ui
-# iong ai
-# iong en
-# ai iong
-# en iong
