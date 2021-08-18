@@ -1,52 +1,35 @@
 # 高效均匀的打字编码方法
  
 本项目供展示使用
- 
-## Getting Started
- 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+ .
  
 ### 文件目录
  
-What things you need to install the software and how to install them
+| calculate_new.py 计算改进输入法的相关数据
+
+| calculate_sub.py 计算去除多字符韵母和声母后的相关数据
+
+| calculate_yunmu.py 计算材料中多字节韵母或者声母的相关数据
+
+| lib  autohotkey 库文件夹
+
+| KMCounter_use.ahk autohotkey 文件，生成热力图，该文件基于ahk开源项目KM_Counter:https://github.com/telppa/KMCounter。
+
+| network.py 多字符韵母之间的关系并可视化。
+
+| C.ini ini配置文件
+
+| screenshot  开源项目资源文件夹
+
+| ico  开源项目资源文件夹
+
+| 1.docx  测试材料
  
-```
-Give examples
-```
+
  
-### Installing
+### note（注意）
  
-A step by step series of examples that tell you how to get a development env running
- 
-Say what the step will be
- 
-```
-Give the example
-```
- 
-And repeat
- 
-```
-until finished
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
- 
-## Running the tests
- 
-Explain how to run the automated tests for this system
- 
-### Break down into end to end tests
- 
-Explain what these tests test and why
- 
-```
-Give an example
-```
- 
-### And coding style tests
- 
-Explain what these tests test and why
+应该先运行 calculate.py
  
 ```
 Give an example
@@ -54,7 +37,7 @@ Give an example
  
 ## Authors
  
-ppka
+PPka
  
 
  
