@@ -19,8 +19,6 @@
 
 | C.ini ini配置文件
 
-| screenshot  开源项目资源文件夹
-
 | ico  开源项目资源文件夹
 
 | 1.docx  测试材料
